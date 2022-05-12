@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from '../logo.svg'
+import logo from '../images/logojjx.png'
 
 const Navbar = () => {
   return (
@@ -15,7 +15,7 @@ const Navbar = () => {
               <NavLink to='/about' className={({isActive})=>isActive?'link active':'link'}>About</NavLink>
             </li>
             <li>
-              <NavLink to='/cocktails' className={({isActive})=>isActive?'link active':'link'}>Cocktails</NavLink>
+              <NavLink to='/cocktails' className={({isActive})=>isActive?'link active':'link'}>Project</NavLink>
             </li>
         </ul>
       </div>
