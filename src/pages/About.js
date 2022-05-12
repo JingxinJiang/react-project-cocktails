@@ -4,13 +4,13 @@ const About = () => {
   return (
     <section className='about-section section' >
       <h2 className='section-title'>About me</h2>
-      <h4>Who am I?</h4>
+      <h3>Who am I?</h3>
       <p>My name is Jingxin Jiang. I am a responsible, independent, and diligent person.
          I enrolled in the Computer Systems Technology: Information Systems Engineering 
          Co-op program in 2021. Furthermore, the uniqueness is my concentration. 
          I can not be easily disturbed by any external distractions when I concentrate on coding.
       </p>
-      <h4>My Inspiration</h4>
+      <h3>My Inspiration</h3>
       <p>
         Furuta Mamoru is my favorite, inspiring Professor. He has a wide range of knowledge
          and is a responsible and diligent man. I learned a lot of knowledge and learned to

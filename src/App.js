@@ -9,7 +9,7 @@ import SingleCocktail from './pages/SingleCocktail-JohnMethod'
 import Cocktails from './pages/Cocktails'
 import Error from './pages/Error'
 // import components
-
+import 'antd/dist/antd.css';
 import SharedLayout from './sharedLayout/SharedLayout';
 import SharedProductsLayout from './sharedLayout/SharedProductsLayout';
 function App() {

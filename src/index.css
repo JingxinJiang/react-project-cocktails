@@ -84,21 +84,53 @@ Home
   text-align: left;
 }
 .hometitle{
-  font-family: 'Courier New', Courier, monospace;
+  display:flex;
   font-size: 1.5rem;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
   text-align: left;
-  margin-left: 3.5rem;
+  margin-left: 6rem;
   margin-bottom: 3.5rem;
   margin-top: 1rem;
-  color: rgb(79, 75, 75);
+  color: black;
+  font-weight:1000;
+  
 }
+.hometitle h2{
+  font-size: 3rem;
+  letter-spacing: 15px;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+/* .hometitle .part{
+  flex: 50%
+} */
 .jobpos{
   /* color:#476a2e; */
-  color:#558eba;
+  color:#583df1;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: left;
+  /* justify-content: center; */
+  padding: 0;
+  font-size: 24px;
+  margin-bottom: 0;
+  margin-top:20px;
 }
 
+.socials li {
+  margin: 0 20px;
+
+}
+
+.socials a {
+  color: gray;
+}
+
+.socials a:hover {
+  color: #1890ff;
+}
 /* 
 ====== 
 Buttons 
@@ -226,13 +258,21 @@ About
 */
 .about-section {
   width: var(--smallWidth);
-  max-width: var(--maxWidth);
+  /* max-width: var(--maxWidth); */
   margin: 0 auto;
 }
-.about-section p {
+.about-section h3, p {
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+.about-section 
+p {
   line-height: 2rem;
   font-weight: 400;
   letter-spacing: 2px;
+  font-size: 20px;
 }
 /* 
 ====== 
